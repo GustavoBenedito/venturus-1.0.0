@@ -9,7 +9,6 @@
     display:flex;
     flex-wrap: nowrap;
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c00e4e+0,8a206f+100 */
 background: rgb(192,14,78); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(192,14,78,1) 0%, rgba(138,32,111,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left,  rgba(192,14,78,1) 0%,rgba(138,32,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
