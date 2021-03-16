@@ -1,51 +1,59 @@
 *{
     margin: 0;
     padding: 0;
-
+    outline:none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:1em;
+    font-size: 1em;
 
 }
 
 .header{
     /* ajustes para o container do header e footer */
-    display:flex;
+    display: flex;
     flex-wrap: nowrap;
 
     /*gradiante do header e footer */ 
     background: rgb(138,32,111);
     background: linear-gradient(90deg, rgba(138,32,111,1) 0%, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 100%);
-    color:#fff;
+    color: #fff;
 
     width: 100%;
-    height:2.5rem;
+    height: 2.5rem;
 
-    font-size:14px;
-    line-height:2.5rem;
+    font-size: 14px;
+    line-height: 2.5rem;
 
 }
 .logo{
 
-    width:5%;
+    width: 5%;
     padding-right: 1rem;
-    padding-left:1rem;
+    padding-left: 1rem;
 
     text-align: right;
 
 
+
+}
+.logo img{
+    margin-top:2px;
+    width:35px;
+    height:35px;
 }
 .titulo{
-    width:85%;
+    width: 85%;
 
-    text-align:left;
-    font-weight:600;
+    text-align: left;
+    font-weight: 600;
 }
 .login{
-    display:flex;
+    display: flex;
 
-    width:10%;
+    width: 10%;
 
-    padding-right:2rem;
+    padding-right: 2rem;
+
+    cursor:pointer
 }
 .login p{
 
@@ -54,58 +62,60 @@
 }
 .login button{
 
-margin: 5px;
-padding: 3px;
-height: 30px;
-width: 30px;
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
 
-font-size:14px;
+    font-size: 14px;
 
-background-color: #fff;
-color: #000;
+    background-color: #fff;
+    color: #000;
 
-border-radius: 20px;
-border: none;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer
 
 }
 footer{
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
 }
 
-/* section ====================================================*/
+/* section-myteams ====================================================*/
 
 
 main{
-    display:flex;
-    width:100%;
-    height:100%;
-    justify-content:center;
-    flex-wrap:wrap;
-    background-color: #F7F3F7;
-    padding-bottom:50px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:  #F7F3F7;
+    padding-bottom: 50px;
 }
 
 section{
     position: relative;
     flex: 1 100%;
     margin:10px;
-    border-radius:5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+
     max-width:600px;
-    min-width:450px;
+    min-width:400px;
 }
 #card-myteams{
     background: #ffffff;
     height:470px;
-    border-radius: 20px;
 }
 #myteams{
     display:flex;
     flex:1;
-    color:#552C8A;
+    color:#8a206f;
     width:100%;
-    height:80px;
-    line-height: 80px;
+    height:60px;
+    line-height: 60px;
     justify-content: space-between;
     border-bottom: 2px solid #F7F3F7;
 }
@@ -120,7 +130,7 @@ section{
     background: rgb(138,32,111);
     background: linear-gradient(180deg, rgba(138,32,111,1) 0%, rgba(179,24,79,1) 0%, rgba(94,12,73,1) 100%);
     box-shadow: 0 0  5px #8a206f;
-    margin: 20px;
+    margin: 10px;
     padding: 3px;
     height: 40px;
     width: 40px;
@@ -144,8 +154,7 @@ section{
     justify-content:flex-start;
     text-align:left;
     border-spacing: 0 0rem;
-
-
+    margin:5px;
 }
 .table th{
     padding:0 0 0 20px;
@@ -158,28 +167,130 @@ section{
 tr, td{
     line-height: 100;
     padding:10px 0 10px 20px;
-    border: 1px solid #949494;
+    border: 1px solid #F7F3F7;
     border-left:none;
     border-right:none;
     line-height: 1em;
     opacity:1;
+    cursor:pointer;
 }
 tbody tr:hover, td:hover{
     color: #B74E88;
     background: #F7EEF7;
     opacity:5;
 }
-#card-top5{
 
-    background: #03d29f;
+
+/* section-top5 ====================================================*/
+#section-right{
+
+width:600px;
+}
+#card-top5{
+    background: #ffffff;
     height:290px;
 
 }
+#top-5{
+    display:flex;
+    flex:1;
+    color: #8a206f;
+    width:100%;
+    height: 60px;
+    line-height:60px;
+    justify-content: flex-start;
+    border-bottom: 2px solid #F7F3F7;
+
+}
+#top-5 strong{
+
+    font-size: 20px;
+    margin:30px;
+}
+#highest-lowest{
+    display: flex;
+    flex:1;
+    text-align: left;
+}
+#card-high p{
+    margin:10px;
+}
+#card-low p{
+    margin:10px;
+}
+#card-high{
+    width:50%;
+}
+#card-low{
+    width:50%;
+}
+.list-highlow{
+    display:block;
+    border:1px solid #F7F3F7;
+    border-radius:8px;
+    font-size:12px;
+    margin:7px;
+}
+.list{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    border:1px solid #F7F3F7;
+    border-radius:8px;
+    cursor:pointer;
+}
+.list:hover{
+    border:1px solid #8a206f;
+    border-bottom:none;
+    transition: 0.5s;
+}
+/* section-player ====================================================*/
 #card-player{
 
     height:170px;
-    background: #be2584;
+    background: rgb(192,14,78);
+    background: linear-gradient(180deg, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 50%);
+    display: flex;
+    flex:1;
+    cursor:pointer
+}
+#player{
+    width:50%;
+    text-align:center;
+    line-height:40px;
+    font-size: 14px;
+    color:#ffffff;
 
+}
+#player:hover{
+    background: rgb(192,14,78);
+    background: linear-gradient(0deg, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 50%);
+
+}
+#button-player-most{
+    margin-top:5px;
+    margin-right:25px;
+    padding:50px;
+    border:none;
+    border-radius:50px;
+}
+#button-player-less{
+    margin-top:5px;
+    margin-right:25px;
+    padding:50px;
+    border:none;
+    border-radius:50px;
+}
+.most{
+    border-right:thin solid #F7F3F7;
+}
+.most:hover{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.less:hover{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
 }
 @media (max-width:800px){
 
@@ -187,4 +298,11 @@ tbody tr:hover, td:hover{
         margin-bottom:50px;
     }
 
+}
+@media(min-width:400px){
+    .login button{
+        padding:7px;
+        height: 30px;
+        width: 30px;
+    }
 }
