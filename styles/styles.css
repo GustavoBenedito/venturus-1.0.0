@@ -6,6 +6,10 @@
     font-size: 1em;
 
 }
+a{
+    text-decoration: none;
+    color:#8a206f;
+}
 
 .header{
     /* ajustes para o container do header e footer */
@@ -174,13 +178,49 @@ tr, td{
     opacity:1;
     cursor:pointer;
 }
+
 tbody tr:hover, td:hover{
     color: #B74E88;
     background: #F7EEF7;
     opacity:5;
+
 }
+#icon{
+    padding: 1px;
+}
+#icons-trash{
+    display:none;
+}
+#icons-share{
+    display:none;
+}
+#icons-pen{
+    display:none;
+}
+.tr:hover #icons-trash{
+    display:block;
+}
+.tr:hover #icons-share{
+    display:block;
+}
+.tr:hover #icons-pen{
+    display:block;
+}
+#icons-trash:hover{
+    color:rgba(119, 42, 102, 0.219);
+    transition:0.3s;
 
+}
+#icons-share:hover{
+    color:rgba(119, 42, 102, 0.219);
+    transition:0.3s;
 
+}
+#icons-pen:hover{
+    color:rgba(119, 42, 102, 0.219);
+    transition:0.3s;
+
+}
 /* section-top5 ====================================================*/
 #section-right{
 
@@ -292,6 +332,7 @@ width:600px;
     border-top-right-radius: 15px;
     border-bottom-right-radius:15px;
 }
+
 @media (max-width:800px){
 
     #card-player{
