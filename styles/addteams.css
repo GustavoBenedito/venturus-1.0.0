@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+a{
+    text-decoration: none;
+    color:#8a206f;
+}
+
+.header-footer{
+    /* ajustes para o container do header e footer */
+    display: flex;
+    flex-wrap: nowrap;
+
+    /*gradiante do header e footer */ 
+    background: rgb(138,32,111);
+    background: linear-gradient(90deg, rgba(138,32,111,1) 0%, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 100%);
+    color: #fff;
+
+    width: 100%;
+    height: 2.5rem;
+
+    font-size: 14px;
+    line-height: 2.5rem;
+
+}
+.logo{
+
+    width: 5%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    text-align: right;
+
+
+
+}
+.logo img{
+    margin-top:2px;
+    width:35px;
+    height:35px;
+}
+.titulo{
+    width: 85%;
+
+    text-align: left;
+    font-weight: 600;
+}
+.login{
+    display: flex;
+
+    width: 10%;
+
+    padding-right: 2rem;
+
+    cursor:pointer
+}
+.login p{
+
+    font-size:0.8em;
+
+}
+.login button{
+
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+
+    font-size: 14px;
+
+    background-color: #fff;
+    color: #000;
+
+    border-radius: 20px;
+    border: none;
+    cursor:pointer
+
+}
+
+
+/* section-myteams ====================================================*/
+
+body{
+    background:#F7F3F7;
+    justify-content:center;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:  #F7F3F7;
+    padding-bottom: 50px;
+}
+#div-main{
+    margin-top:20px;
+    display:block;
+    width:1200px;
+    height:800px;
+    background:#ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content:center;
+}
+#createyourteam{
+    height:50px;
+    border-bottom: 2px solid #F7F3F7;
+
+}
+#div-main div strong{
+    color:#8a206f;
+    font-size: 20px;
+    font-weight: 600;
+    margin:25px;
+}
+section div p{
+    color:#000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin:15px;
+}
+section div p:hover{
+    color:#8a206f;
+    font-size: 18px;
+    font-weight: 600;
+    margin:15px;
+}
+
+#team-information{
+    color: rgb(99, 99, 99);
+    font-weight: 600;
+    text-align: center;
+
+    margin:20px;
+}
+#div-sec{
+    display:flex;
+    justify-content:space-evenly;
+    background:#ffffff;
+    height:450px;
+}
+section{
+    width:450px;
+
+    font-size: 18px;
+}
+section div p:hover{
+    color:#8a206f;
+}
+section div .input{
+    width:100%;
+    border-radius: 5px;
+    border:2px solid #b3b3b3;
+}
+section div .input:hover{
+    border:2px solid #8a206f;
+}
+section div textarea{
+    width:100%;
+    border-radius: 5px;
+    border:2px solid #b3b3b3;
+}
+section div textarea:hover{
+    width:100%;
+    border-radius: 5px;
+    border:2px solid #8a206f;
+}
+#radio{
+    display:flex;
+}
+#radio div{
+    margin-right:55px;
+}
+#radio div input{
+    margin:5px;
+}
+input[type="radio"]:checked{
+    color:#8a206f;
+}
+
+@media (max-width:800px){
+    #div-main{
+        width:500px;
+    }
+    #div-sec{
+        display:block;
+    }
+    section{
+        margin:15px;
+    }
+    #card-player{
+        margin-bottom:50px;
+    }
+
+}
+@media(min-width:400px){
+    .login button{
+        padding:7px;
+        height: 30px;
+        width: 30px;
+    }
+}

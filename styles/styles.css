@@ -11,7 +11,7 @@ a{
     color:#8a206f;
 }
 
-.header{
+.header-footer{
     /* ajustes para o container do header e footer */
     display: flex;
     flex-wrap: nowrap;
@@ -81,10 +81,7 @@ a{
     cursor:pointer
 
 }
-footer{
-    position: fixed;
-    bottom: 0;
-}
+
 
 /* section-myteams ====================================================*/
 
@@ -101,17 +98,18 @@ main{
 
 section{
     position: relative;
-    flex: 1 100%;
+    flex: 1;
     margin:10px;
     border-top-right-radius: 15px;
     border-top-left-radius:15px;
 
-    max-width:600px;
-    min-width:400px;
+
 }
 #card-myteams{
     background: #ffffff;
     height:470px;
+    max-width:600px;
+    min-width:400px;
 }
 #myteams{
     display:flex;
@@ -122,6 +120,7 @@ section{
     line-height: 60px;
     justify-content: space-between;
     border-bottom: 2px solid #F7F3F7;
+
 }
 #myteams strong{
     font-size: 20px;
@@ -159,6 +158,7 @@ section{
     text-align:left;
     border-spacing: 0 0rem;
     margin:5px;
+
 }
 .table th{
     padding:0 0 0 20px;
@@ -229,7 +229,8 @@ width:600px;
 #card-top5{
     background: #ffffff;
     height:290px;
-
+    max-width:600px;
+    min-width:400px;
 }
 #top-5{
     display:flex;
@@ -240,6 +241,7 @@ width:600px;
     line-height:60px;
     justify-content: flex-start;
     border-bottom: 2px solid #F7F3F7;
+    
 
 }
 #top-5 strong{
@@ -292,7 +294,9 @@ width:600px;
     background: linear-gradient(180deg, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 50%);
     display: flex;
     flex:1;
-    cursor:pointer
+    cursor:pointer;
+    max-width:600px;
+    min-width:400px;
 }
 #player{
     width:50%;
@@ -346,4 +350,19 @@ width:600px;
         height: 30px;
         width: 30px;
     }
+}
+
+/* pagina addteams ====================================================*/
+#section-addteam{
+    display:flex;
+    flex:1;
+
+
+}
+.a{
+    min-width:500px;
+    height:500px;
+    background-color:#8a206f;
+    color:#fff
+    
 }
