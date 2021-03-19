@@ -22,6 +22,9 @@ Ele possui um roxo mais claro (rgba(192,14,78,1)) e através de um codigo de gra
 
 O login foi feito pensando em uma forma de fazer um circulo aonde guardaria as inicias de quem fez o login, por isso usamos um button com height width de 30px e um bom border-radius para deixar tudo redondo.
 
+![index](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/paginainicial.png)
+
+Aqui esta o nosso index, ele foi desenvolvido para ser o mais parecido com o layout parecido, foi usado css, html e muito esforço para deixar cada detalhe o mais fiel ao exemplo apresentado no desafio. 
 
 #body 
 O body esta segurando todos os elementos de nosso site.
@@ -47,3 +50,13 @@ Essa section possui duas colunas que possuem 2 colunas, uma com times que estao 
 ![player](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/player.png)
 
 A section player desenvolvida para parecer o maximo com o layout original, nao foi possivel ser 100% fiel mas foi feito o que foi possivel. Possui as bordas das partes superiores arredondas assim como o main. Player foi desenvolvido de uma forma que ao passar o mouse em cima de cada lado (most picked player e less picked player) a cor é mudada atraves do hover. A cor da section foi desenvolvida da mesma forma que foi feita o header e o footer.
+
+![playercomhover](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/playercomhover.png)
+
+aqui podemos ver como a cor muda de acordo com o hover da section do player.
+
+#Adicionar Teams
+
+![addteams](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/addteams.png)
+
+Aqui esta a pagina que possui a funçao de adicionar outros times que irao ser montados pelo usuario. A pagina nao está finalizada, mas possui um formulario para adicionar nome, website do time, descricao, tipo do time e algumas tags. 
