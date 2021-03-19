@@ -19,14 +19,3 @@ A linguagem escolhida desse codigo foi o Inglês, portanto: "<html lang="en">"
 
 o Header e o footer foi desenvolvido com a ideia de ser algo que poderia ser o mesmo codigo porem um na parte de baixo do site e o outro no topo, como se o header fosse identico ao footer.
 Ele possui um roxo mais claro (rgba(192,14,78,1)) e através de um codigo de gradient ele irá escurecer até se tornar mais escuro (rgb(138,32,111)).
-
-
-
-
-
-
-
-
-
-
-
