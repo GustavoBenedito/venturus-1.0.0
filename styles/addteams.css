@@ -14,7 +14,6 @@ a{
 .header-footer{
     /* ajustes para o container do header e footer */
     display: flex;
-    flex-wrap: nowrap;
 
     /*gradiante do header e footer */ 
     background: rgb(138,32,111);
@@ -27,6 +26,10 @@ a{
     font-size: 14px;
     line-height: 2.5rem;
 
+}
+footer{
+    position: relative;
+    bottom:100%;
 }
 .logo{
 
@@ -90,19 +93,18 @@ body{
     justify-content:center;
 }
 main{
-    display: flex;
+    display:flex;
     width: 100%;
-    height: 100%;
     justify-content: center;
-    flex-wrap: wrap;
     background-color:  #F7F3F7;
     padding-bottom: 50px;
+    height:1500px;
 }
+
 #div-main{
     margin-top:20px;
     display:block;
     width:1200px;
-    height:800px;
     background:#ffffff;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -111,13 +113,14 @@ main{
 #createyourteam{
     height:50px;
     border-bottom: 2px solid #F7F3F7;
-
+    line-height: 50px;
+    margin-left:30px;
 }
 #div-main div strong{
     color:#8a206f;
     font-size: 20px;
     font-weight: 600;
-    margin:25px;
+
 }
 section div p{
     color:#000000;
@@ -136,7 +139,6 @@ section div p:hover{
     color: rgb(99, 99, 99);
     font-weight: 600;
     text-align: center;
-
     margin:20px;
 }
 #div-sec{
@@ -145,8 +147,9 @@ section div p:hover{
     background:#ffffff;
     height:450px;
 }
+
 section{
-    width:450px;
+    min-width:450px;
 
     font-size: 18px;
 }
@@ -161,14 +164,22 @@ section div .input{
 section div .input:hover{
     border:2px solid #8a206f;
 }
-section div textarea{
+section div #textarea{
     width:100%;
     border-radius: 5px;
+    height:300px;
     border:2px solid #b3b3b3;
 }
-section div textarea:hover{
+section div #textarea:hover{
+    border:2px solid #8a206f;
+}
+section div #textarea2{
     width:100%;
     border-radius: 5px;
+    height:225px;
+    border:2px solid #b3b3b3;
+}
+section div #textarea2:hover{
     border:2px solid #8a206f;
 }
 #radio{
@@ -187,10 +198,12 @@ input[type="radio"]:checked{
 @media (max-width:800px){
     #div-main{
         width:500px;
+        height:2000px;
     }
     #div-sec{
         display:block;
     }
+
     section{
         margin:15px;
     }
