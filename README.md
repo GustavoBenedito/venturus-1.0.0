@@ -37,7 +37,11 @@ A primeira section possui um titulo roxo, e uma tabela com alguns times que seri
 
 #section top 5
 
-![top5]((https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/top5.png))
+![top5](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/top5.png)
+
+Essa section possui duas colunas que possuem 2 colunas, uma com times que estao em altas e outra que possui times que estao em baixa. Foi desenvolvida aonde cada time é uma div que possui bordas que se destacam quando passamos o mouse em cima de cada uma, a ideia era poder adicionar um link em cada div para direcionar ao time selecionado.
+
+
 
 
 
