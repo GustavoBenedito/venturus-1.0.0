@@ -24,11 +24,21 @@ O login foi feito pensando em uma forma de fazer um circulo aonde guardaria as i
 
 
 #body 
-o body esta segurando todos os elementos de nosso site.
+O body esta segurando todos os elementos de nosso site.
 
 #main
-o main possui nossas sections e foi estilisado para mante-las responsivas com display flex e um background com a cor #F7F3F7.
+O main possui nossas sections e foi estilisado para mante-las responsivas com display flex e um background com a cor #F7F3F7.
 
 #section my teams
 
 ![myteams](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/myteams.png)
+
+A primeira section possui um titulo roxo, e uma tabela com alguns times que seriam usados a partir da API football, os icones foram usados nessa tabela para infatizar que teriamos como excluir, editar ou compartilhar um time. Além de possuir um botão para adicionar mais times.
+
+#section top 5
+
+![top5]((https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/top5.png))
+
+
+
+
