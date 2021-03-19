@@ -42,7 +42,8 @@ A primeira section possui um titulo roxo, e uma tabela com alguns times que seri
 Essa section possui duas colunas que possuem 2 colunas, uma com times que estao em altas e outra que possui times que estao em baixa. Foi desenvolvida aonde cada time é uma div que possui bordas que se destacam quando passamos o mouse em cima de cada uma, a ideia era poder adicionar um link em cada div para direcionar ao time selecionado.
 
 
+#section player
 
+![player](https://github.com/Gustavobenedito64a/venturus-1.0.0/blob/main/imagens/imagens-readme/player.png)
 
-
-
+A section player desenvolvida para parecer o maximo com o layout original, nao foi possivel ser 100% fiel mas foi feito o que foi possivel. Possui as bordas das partes superiores arredondas assim como o main. Player foi desenvolvido de uma forma que ao passar o mouse em cima de cada lado (most picked player e less picked player) a cor é mudada atraves do hover. A cor da section foi desenvolvida da mesma forma que foi feita o header e o footer.
