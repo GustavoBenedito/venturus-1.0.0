@@ -24,9 +24,11 @@ O login foi feito pensando em uma forma de fazer um circulo aonde guardaria as i
 
 
 # body 
+
 O body esta segurando todos os elementos de nosso site.
 
-#main
+# main
+
 O main possui nossas sections e foi estilisado para mante-las responsivas com display flex e um background com a cor #F7F3F7.
 
 # section my teams
